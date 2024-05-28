@@ -1,26 +1,27 @@
 import flet as ft
 
 def main(page: ft.Page):
-    data = []
-
 
     page.title = "Gestión de Personal"
 
     name_field = ft.TextField(label="Nombre")
     puesto_field = ft.TextField(label="Puesto")
+    salario_field = ft.TextField(label="Salario Q#")
+    dpi_field = ft.TextField(label="DPI")
+    edad_field = ft.TextField(label="Edad")
 
-    save_button = ft.ElevatedButton(text="Guardar", visible=False)
-    message_text = ft.Text("", color="green")
+   
+    aniadir_button = ft.ElevatedButton(text="Añadir" )
+    guardar_button = ft.ElevatedButton(text="Guardar")
 
-    employee_list = ft.ListView(expand=1, spacing=10, padding=20)
 
     page.add(
         name_field,
         puesto_field,
-        message_text,
-        ft.Row([save_button]),
-        employee_list
+        salario_field,
+        dpi_field,
+        edad_field,
+        ft.Row({guardar_button, aniadir_button})
     )
-
 
 ft.app(target=main)
