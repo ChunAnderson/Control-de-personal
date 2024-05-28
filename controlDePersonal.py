@@ -2,7 +2,9 @@ import flet as ft
 
 def main(page: ft.Page):
 
-    page.title = "Gestión de Personal"
+    
+
+    page.title = "Gestión de Personal Amanda"
 
     name_field = ft.TextField(label="Nombre")
     puesto_field = ft.TextField(label="Puesto")
