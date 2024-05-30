@@ -1,0 +1,16 @@
+[
+    {
+        "nombre": "Anderson",
+        "puesto": "Gerente",
+        "salario": 10000.0,
+        "dpi": "3771417040101",
+        "edad": "25"
+    },
+    {
+        "nombre": "Anderson",
+        "puesto": "Gerente",
+        "salario": 10000.0,
+        "dpi": "26",
+        "edad": "25"
+    }
+]
