@@ -1,16 +1,23 @@
 [
     {
-        "nombre": "Anderson",
+        "nombre": "Prueba",
         "puesto": "Gerente",
-        "salario": 10000.0,
-        "dpi": "3771417040101",
+        "salario": 1000.0,
+        "dpi": "3575",
         "edad": "25"
     },
     {
         "nombre": "Anderson",
-        "puesto": "Gerente",
-        "salario": 10000.0,
-        "dpi": "26",
+        "puesto": "Eduardo",
+        "salario": 1000.0,
+        "dpi": "14",
+        "edad": "25"
+    },
+    {
+        "nombre": "Anderson",
+        "puesto": "Barrendero",
+        "salario": 0.0,
+        "dpi": "25",
         "edad": "25"
     }
 ]
